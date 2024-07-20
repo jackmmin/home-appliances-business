@@ -4,6 +4,9 @@ import routes from './routes';
 
 const app = express();
 
+console.log(path.join(__dirname, 'views'));
+
+
 // 뷰 엔진 설정
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
